@@ -1,7 +1,7 @@
 package org.example;
 
 
-public interface Iterable  {
+public interface Iterable {
 
     public Iterator iterator();
 }

@@ -1,6 +1,7 @@
+
 package org.example;
 
-public interface List extends Iterable{
+public interface List extends Iterable {
     public void insert(int index, Object value)
             throws IndexOutOfBoundsException;
     public void add(Object value);
