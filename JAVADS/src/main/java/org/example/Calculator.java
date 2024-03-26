@@ -1,12 +1,12 @@
 package org.example;
 
-public class Powercalculator {
-    public static final Powercalculator INSTANCE = new Powercalculator();
+public class Calculator {
+    public static final Calculator INSTANCE = new Calculator();
 
-    private Powercalculator() {
+    private Calculator() {
     }
 
-    public int calculate(int base, int exponent) {
+    public int power(int base, int exponent) {
         assert exponent >= 0 : "exponent can't be < 0";
         int result = 1;
         for (int i = 0; i < exponent; ++i) {

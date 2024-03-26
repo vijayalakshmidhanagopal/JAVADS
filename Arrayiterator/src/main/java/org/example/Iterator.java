@@ -1,6 +1,6 @@
 package org.example;
 
-public interface Iterators {
+public interface Iterator {
     public void first();
     public void last();
     public boolean isDone();
